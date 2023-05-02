@@ -1,11 +1,18 @@
+import TopNav from './TopNav'
+import Home from './Home'
+import Works from './Works'
+import AboutMe from './AboutMe'
+import Blogs from './Blogs'
+
 function App() {
   return (
-    <>
-      <header className="header">
-        <h1>My Collection</h1>
-      </header>
-      <section className="main">{/* add your code here */}</section>
-    </>
+    <div className="main">
+      <TopNav />
+      <Home />
+      <Works />
+      <Blogs />
+      <AboutMe />
+    </div>
   )
 }
 
